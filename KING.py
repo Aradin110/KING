@@ -18,7 +18,7 @@ if bit == '64bit':
     try:os.system('mkdir /sdcard/4MBF-DATA/TAP-A2F')
     except:pass
     try:os.system('touch .prox.txt')
-    from KING import Subscription
-    Subscription()
+        from KING import Subscription
+        Subscription()
 elif bit == '32bit':
     print("\x1b[1;91mOpps Sorry Brother Your Mobile Not Support This Tools")
