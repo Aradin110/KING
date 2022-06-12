@@ -8,6 +8,16 @@ import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
     print("\n\x1b[1;92m Congratulations ! Your Device Support Tolls\033[1;37m")
+    os.system('git pull')
+    try:os.system('mkdir /sdcard/4MBF-DATA')
+    except:pass
+    try:os.system('mkdir /sdcard/4MBF-DATA/OK')
+    except:pass
+    try:os.system('mkdir /sdcard/4MBF-DATA/CP')
+    except:pass
+    try:os.system('mkdir /sdcard/4MBF-DATA/TAP-A2F')
+    except:pass
+    try:os.system('touch .prox.txt')
     from KING import Subscription
     Subscription()
 elif bit == '32bit':
