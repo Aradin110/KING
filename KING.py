@@ -2,6 +2,8 @@ import os, platform, time
 os.system('git pull')
 try:os.system('mkdir /sdcard/4MBF-DATA')
 except:pass
+try:os.system('mkdir /sdcard/4MBF-DATA/DUMP')
+except:pass
 try:os.system('mkdir /sdcard/4MBF-DATA/OK')
 except:pass
 try:os.system('mkdir /sdcard/4MBF-DATA/CP')
